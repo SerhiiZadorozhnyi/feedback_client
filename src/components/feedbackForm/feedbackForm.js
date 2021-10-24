@@ -46,8 +46,8 @@ class FeedbackForm extends React.Component{
   }
 
   handleClick () {
-    this.resetForm();
     this.shoot();
+    // this.resetForm();
   }
 
   render() {

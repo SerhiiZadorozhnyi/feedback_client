@@ -64,8 +64,8 @@ const Input = styled.input`
   outline: none;
 
   :active, :hover, :active, :focus {
-    border: 1px solid #F472B7;
-    box-shadow: 1px 1px 2px 0 red;
+    border: 1px solid #FFD74F;
+    box-shadow: 1px 1px 2px 0 #FFD74F;
   }
 
   @media (min-width: 768px) {
@@ -107,8 +107,8 @@ const InputMessage = styled.textarea`
     resize: none;
 
     :active, :hover, :active, :focus {
-      border: 1px solid #F472B7;
-      box-shadow: 1px 1px 2px 0 red;
+      border: 1px solid #FFD74F;
+      box-shadow: 1px 1px 2px 0 #FFD74F;
     }
 
   @media (min-width: 768px) {
