@@ -7,6 +7,7 @@ const Root = styled.div`
 
 const Form = styled.form`
   position: relative;
+  z-index: 999;
 `;
 
 const Label = styled.h1`
