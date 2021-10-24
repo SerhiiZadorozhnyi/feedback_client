@@ -97,6 +97,7 @@ const EllowMedium = styled.div`
   z-index: 3;
   top: 15px;
   left: 15px;
+  display: none;
 
   @media (min-width: 768px) {
     top: 516px;
@@ -105,7 +106,7 @@ const EllowMedium = styled.div`
   }
 
   @media (min-width: 1024px) {
-
+    display: block;
   }
 `;
 
@@ -133,14 +134,14 @@ const PinkElipse = styled.div`
   display: none;
 
   @media (min-width: 768px) {
-    display: block;
+    // display: block;
     top: 586px;
     // left: 814px;
     right: 423px;
   }
 
   @media (min-width: 1024px) {
-
+    display: block;
   }
 `;
 
